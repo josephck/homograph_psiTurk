@@ -1,9 +1,9 @@
 [HIT Configuration]
-title = Test your reaction time
-description = Respond as quickly as you can
+title = Homograph - guess the missing character
+description = Find the missing character as quickly as you can
 amt_keywords = Perception, Psychology, experiment
 lifetime = 24
-us_only = true
+us_only = false
 approve_requirement = 95
 contact_email_on_error = your@email.address
 ad_group = jspsych simple experiment example
@@ -16,7 +16,7 @@ database_url = sqlite:///participants.db
 table_name = turkdemo
 
 [Server Parameters]
-host = localhost
+host = 0.0.0.0
 port = 22362
 cutoff_time = 30
 logfile = server.log

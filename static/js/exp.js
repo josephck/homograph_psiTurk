@@ -188,7 +188,7 @@
     }
 
     //Enviornment constant and variables
-    const csv_path = "./csv/";
+    const csv_path = "./static/csv/";
     let promises = [];
     var timeline = [];
 
